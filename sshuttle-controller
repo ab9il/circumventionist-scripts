@@ -79,8 +79,8 @@ case "$1" in
 esac
 
 OPTIONS="Start SSH tunneling
-Edit your server data
-Stop SSH tunneling"
+Stop SSH tunneling
+Edit your server data"
 
 # Take the choice; exit if no answer matches options.
 REPLY="$(echo -e "$OPTIONS" | $COMMAND1 )"
